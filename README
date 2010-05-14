@@ -1,0 +1,8 @@
+sdk2cng: Reduces sudoku puzzles to CNF formulae.
+
+Instructions
+---
+
+Must have GHC installed: http://www.haskell.org/ghc/download.html
+run "make"
+Invoke: sdk2cnf < YOUR_PUZZLE.sdk | YOUR_SAT_SOLVER | sol2sdk
