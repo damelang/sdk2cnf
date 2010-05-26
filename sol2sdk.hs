@@ -18,6 +18,6 @@ main = do c <- getContents
           let f  = \s -> read s::Int
           let vars = map f $ concat $ map (drop 1) $ map words $
                      filter ((== "v") . take 1) $ lines c
-          let n = floor $ (**(1/6)) $ (fromInteger (toInteger $ length vars)::Float)
+          let n = floor $ (**(1/6)) $ (fromInteger (toInteger $ (length vars) - 1)::Float)
           let vals = foldl (concatValue n) [] vars
           printRows n $ reverse vals

@@ -1,0 +1,1 @@
+./sdk2cnf-2 < $1.sdk | ../precosat/precosat | sol2sdk-2 | diff - $1-SOLVED.sdk
