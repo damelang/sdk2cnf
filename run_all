@@ -1,4 +1,4 @@
-*** FIRST REDUCTION ***
+echo '*** FIRST REDUCTION ***'
 echo 9x9-very-easy:
 time run 9x9-very-easy
 echo ------------------------------------------

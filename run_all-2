@@ -1,4 +1,4 @@
-echo *** SECOND REDUCTION ***
+echo '*** SECOND REDUCTION ***'
 echo 9x9-very-easy:
 time run-2 9x9-very-easy
 echo ------------------------------------------
