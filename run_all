@@ -1,0 +1,31 @@
+*** FIRST REDUCTION ***
+echo 9x9-very-easy:
+time run 9x9-very-easy
+echo ------------------------------------------
+echo 9x9-easy:
+time run 9x9-easy
+echo ------------------------------------------
+echo 9x9-medium:
+time run 9x9-medium
+echo ------------------------------------------
+echo 9x9-hard:
+time run 9x9-hard
+echo ------------------------------------------
+echo 16x16-easy:
+time run 16x16-easy
+echo ------------------------------------------
+echo 16x16-medium:
+time run 16x16-medium
+echo ------------------------------------------
+echo 16x16-hard:
+time run 16x16-hard
+echo ------------------------------------------
+echo 25x25-easy:
+time run 25x25-easy
+echo ------------------------------------------
+echo 25x25-medium:
+time run 25x25-medium
+echo ------------------------------------------
+echo 25x25-hard:
+time run 25x25-hard
+echo ------------------------------------------
